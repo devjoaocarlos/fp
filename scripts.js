@@ -1,10 +1,10 @@
-let prevButton = document.getElementById("prev");
-let nextButton = document.getElementById("next");
-let container = document.querySelector(".container");
-let items = container.querySelectorAll(".list .item");
-let indicator = document.querySelector(".indicators");
-let dots = indicator.querySelectorAll("ul li");
-let list = container.querySelector(".list");
+const prevButton = document.getElementById("prev");
+const nextButton = document.getElementById("next");
+const container = document.querySelector(".container");
+const items = container.querySelectorAll(".list .item");
+const indicator = document.querySelector(".indicators");
+const dots = indicator.querySelectorAll("ul li");
+const list = container.querySelector(".list");
 
 let active = 0;
 let firstPosition = 0;
